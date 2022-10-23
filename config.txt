@@ -1,22 +1,27 @@
 {
 # 公众号配置
 # 公众号appId
-"app_id": "wx6930dc1faa8254b0",
+"app_id": "粘贴自己的",
 # 公众号appSecret
-"app_secret": "46ba39c834d0813357412b81b1260791",
+"app_secret": "粘贴自己的",
 # 模板消息id
-"template_id": "f73pGe-nlT-BH4AP0_WDGKs-nJlB75v_zGbTBXu0p4I",
-# 接收公众号消息的微信号id，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
-"user": ["otSM26BhnoRcnmmgHrs25jw2VAnQ","otSM26L5H0IZBukgJeI4Ju8z5Hq0"],
+"template_id": "粘贴自己的",
+# 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
+"user": ["粘贴自己的，不是自己的微信号，而是扫描二维码后，右边的那个很长的一串字符"],
 
 # 信息配置
-# 所在省份
-"province": "广东",
-# 所在城市
-"city": "茂名",
-# 生日1，修改name为对应需要显示的名字，如果生日为农历，在最前面加上r即可
-"birthday1": {"name": "宝贝老公", "birthday": "r2003-03-25"},
-"birthday2": {"name": "三金宝贝", "birthday": "r2003-06-10"},
+# 和风天气apikey
+"weather_key": "粘贴自己的",
+# 天行数据apikey
+"tian_api": "粘贴自己的",
+# 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦(国外城市可能获取不到pm2.5，空气质量，今日建议等数据)
+"region": "杭州",
+# 生日
+"birthday1": {"name": "山野分享屋", "birthday": "2003-08-03"},
 # 在一起的日子，格式同上
-"love_date": "2021-11-01"
+"love_date": "2022-06-01",
+# 金句中文，如果为空，默认会读取金山的每日金句
+"note_ch": "",
+# 金句英文
+"note_en": ""
 }
